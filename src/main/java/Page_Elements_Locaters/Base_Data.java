@@ -17,7 +17,7 @@ public class Base_Data {
 		driver.manage().window().maximize();
         driver.get("https://recruitex.co.in/Recruitex_Sales/#/login");	
 	}
-	//@AfterTest
+	@AfterTest
 	public void Close1() {
 		driver.close();
 	}
